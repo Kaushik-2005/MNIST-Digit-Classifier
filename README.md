@@ -14,6 +14,17 @@ This project is an implementation of a Convolutional Neural Network (CNN) to cla
 - Torchvision
 - Pillow
 
+## Structure:
+```bash
+.
+├── app.py            # Contains the Gradio-based UI for digit classification
+├── model.py          # Contains the CNN model architecture and model loading logic
+├── train.py          # Script to train the CNN model on the MNIST dataset
+├── README.md         # Project documentation
+├── mnist_cnn.pth     # (Generated after training) Trained model file (run train.py)
+└── data/             # MNIST dataset downloaded automatically (run train.py)
+```
+
 ## Installation:
 1. Clone the repository:
 ```bash
