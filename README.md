@@ -21,10 +21,11 @@ This project is an implementation of a Convolutional Neural Network (CNN) to cla
 ├── model.py          # Contains the CNN model architecture and model loading logic
 ├── train.py          # Script to train the CNN model on the MNIST dataset
 ├── README.md         # Project documentation
-├── mnist_cnn.pth     # (Generated after training) Trained model file (run train.py)
-└── data/             # MNIST dataset downloaded automatically (run train.py)
+├── mnist_cnn.pth
+└── data/
 ```
-
+- `./data` is downloaded automatically if not found when the `train.py` is run.
+- `mnist_cnn.pth` is generated after running `train.py`.
 ## Installation:
 1. Clone the repository:
 ```bash
